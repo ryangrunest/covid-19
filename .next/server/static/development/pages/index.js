@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -132,12 +132,15 @@ const countries = ["Afghanistan", "Albania", "Algeria", "American Samoa", "Andor
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _countries_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../countries.js */ "./countries.js");
-/* harmony import */ var _apikey__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../apikey */ "./apikey.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _countries_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../countries.js */ "./countries.js");
+/* harmony import */ var _apikey__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../apikey */ "./apikey.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/ryangrunest/Developer/CurrentProjects/covid-19/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -171,85 +174,171 @@ const Index = props => {
   }
 
   async function getCountryData(country) {
-    return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()(`https://covid-19-data.p.rapidapi.com/country?name=${country}`, {
+    return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default()(`https://covid-19-data.p.rapidapi.com/country?name=${country}`, {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": _apikey__WEBPACK_IMPORTED_MODULE_2__["apiKey"]
+        "X-RapidAPI-Key": _apikey__WEBPACK_IMPORTED_MODULE_3__["apiKey"]
       }
     }).then(res => res.json());
   }
 
-  return __jsx("div", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 5
+      lineNumber: 34,
+      columnNumber: 7
+    }
+  }, __jsx("title", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 9
+    }
+  }, "Covid-19 Tracker"), __jsx("meta", {
+    charSet: "utf-8",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 9
+    }
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
+    integrity: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh",
+    crossorigin: "anonymous",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 9
+    }
+  }), __jsx("script", {
+    src: "https://code.jquery.com/jquery-3.4.1.slim.min.js",
+    integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n",
+    crossorigin: "anonymous",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 9
+    }
+  }), __jsx("script", {
+    src: "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js",
+    integrity: "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo",
+    crossorigin: "anonymous",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 9
+    }
+  }), __jsx("script", {
+    src: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+    integrity: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6",
+    crossorigin: "anonymous",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 9
+    }
+  })), __jsx("main", {
+    className: "Index",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 7
     }
   }, __jsx("select", {
     onChange: handleChange,
     name: "countries",
-    className: "countries-dropdown",
+    className: "dropdown",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 7
+      lineNumber: 61,
+      columnNumber: 9
     }
-  }, _countries_js__WEBPACK_IMPORTED_MODULE_1__["countries"].map(country => {
+  }, _countries_js__WEBPACK_IMPORTED_MODULE_2__["countries"].map(country => {
     return __jsx("option", {
       key: country,
       value: country,
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
-        columnNumber: 13
+        lineNumber: 64,
+        columnNumber: 15
       }
     }, country);
-  })), __jsx("p", {
+  })), __jsx("div", {
+    className: "jumbotron",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 7
+      lineNumber: 70,
+      columnNumber: 9
     }
-  }, _apikey__WEBPACK_IMPORTED_MODULE_2__["apiKey"]), __jsx("p", {
+  }, __jsx("h1", {
+    className: "display-4",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 7
+      lineNumber: 71,
+      columnNumber: 11
     }
-  }, selectedCountry), __jsx("p", {
+  }, selectedCountry), __jsx("hr", {
+    className: "my-4",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 7
+      lineNumber: 72,
+      columnNumber: 11
     }
-  }, confirmed), __jsx("p", {
+  }), __jsx("p", {
+    className: "lead",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 7
+      lineNumber: 73,
+      columnNumber: 11
     }
-  }, recovered), __jsx("p", {
+  }, "Confirmed Cases: ", confirmed), __jsx("p", {
+    className: "lead",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 7
+      lineNumber: 74,
+      columnNumber: 11
     }
-  }, deaths));
+  }, "Recovered: ", recovered), __jsx("p", {
+    className: "lead",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 11
+    }
+  }, "Deaths: ", deaths))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -269,6 +358,17 @@ module.exports = __webpack_require__(/*! /Users/ryangrunest/Developer/CurrentPro
 /***/ (function(module, exports) {
 
 module.exports = require("isomorphic-unfetch");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 
