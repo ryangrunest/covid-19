@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -224,6 +224,15 @@ const Index = props => {
       lineNumber: 38,
       columnNumber: 9
     }
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "app.css",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 9
+    }
   }), __jsx("script", {
     src: "https://code.jquery.com/jquery-3.4.1.slim.min.js",
     integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n",
@@ -231,7 +240,7 @@ const Index = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 45,
       columnNumber: 9
     }
   }), __jsx("script", {
@@ -241,7 +250,7 @@ const Index = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 50,
       columnNumber: 9
     }
   }), __jsx("script", {
@@ -251,7 +260,16 @@ const Index = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 55,
+      columnNumber: 9
+    }
+  }), __jsx("script", {
+    src: "https://kit.fontawesome.com/7fde712a5d.js",
+    crossorigin: "anonymous",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
       columnNumber: 9
     }
   })), __jsx("main", {
@@ -259,8 +277,109 @@ const Index = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 65,
       columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "container colored",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "col text-center py-4",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 13
+    }
+  }, __jsx("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 15
+    }
+  }, "Covid-19 Tracker"), __jsx("h4", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 15
+    }
+  }, "Using the", " ", __jsx("a", {
+    href: "https://rapidapi.com/Gramzivi/api/covid-19-data",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 17
+    }
+  }, "Covid-19 API"), " ", "from RapidAPI"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 15
+    }
+  }, "Use the dropdown below to select a country. The data will display below.")))), __jsx("div", {
+    className: "container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "col-sm",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "dropdown-container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87,
+      columnNumber: 15
+    }
+  }, __jsx("div", {
+    className: "search-countries",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "select",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
+      columnNumber: 19
     }
   }, __jsx("select", {
     onChange: handleChange,
@@ -269,8 +388,8 @@ const Index = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 9
+      lineNumber: 90,
+      columnNumber: 21
     }
   }, _countries_js__WEBPACK_IMPORTED_MODULE_2__["countries"].map(country => {
     return __jsx("option", {
@@ -279,66 +398,99 @@ const Index = props => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64,
-        columnNumber: 15
+        lineNumber: 97,
+        columnNumber: 27
       }
     }, country);
-  })), __jsx("div", {
-    className: "jumbotron",
+  })), __jsx("i", {
+    "aria-hidden": true,
+    className: "fas fa-chevron-down fa-lg",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 103,
+      columnNumber: 21
+    }
+  }))))))), __jsx("div", {
+    className: "container-fluid",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110,
       columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "col",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "jumbotron text-center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113,
+      columnNumber: 15
     }
   }, __jsx("h1", {
     className: "display-4",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 11
+      lineNumber: 114,
+      columnNumber: 17
     }
   }, selectedCountry), __jsx("hr", {
     className: "my-4",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 11
+      lineNumber: 115,
+      columnNumber: 17
     }
   }), __jsx("p", {
     className: "lead",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 11
+      lineNumber: 116,
+      columnNumber: 17
     }
   }, "Confirmed Cases: ", confirmed), __jsx("p", {
     className: "lead",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 11
+      lineNumber: 117,
+      columnNumber: 17
     }
   }, "Recovered: ", recovered), __jsx("p", {
     className: "lead",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 11
+      lineNumber: 118,
+      columnNumber: 17
     }
-  }, "Deaths: ", deaths))));
+  }, "Deaths: ", deaths)))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

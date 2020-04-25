@@ -1,0 +1,51 @@
+.Index {
+  height: 100vh;
+  background-color: floralwhite;
+}
+.jumbotron {
+  background-color: floralwhite;
+}
+.dropdown-container {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-countries {
+  font-size: 13px;
+  padding: 10px 8px 10px 14px;
+  background: #fff;
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+.search-countries:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.search-countries .select {
+  width: 120%;
+  background-position: 80% center;
+  cursor: pointer;
+}
+
+.search-countries .select select {
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 80%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+  outline: none;
+  cursor: pointer;
+}
+.colored {
+  background-color: darkslategray;
+  color: floralwhite;
+}
