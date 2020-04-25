@@ -1600,7 +1600,7 @@ var Index = function Index(props) {
     rel: "stylesheet",
     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
     integrity: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1619,7 +1619,7 @@ var Index = function Index(props) {
   }), __jsx("script", {
     src: "https://code.jquery.com/jquery-3.4.1.slim.min.js",
     integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1629,7 +1629,7 @@ var Index = function Index(props) {
   }), __jsx("script", {
     src: "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js",
     integrity: "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1639,7 +1639,7 @@ var Index = function Index(props) {
   }), __jsx("script", {
     src: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
     integrity: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1648,7 +1648,7 @@ var Index = function Index(props) {
     }
   }), __jsx("script", {
     src: "https://kit.fontawesome.com/7fde712a5d.js",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1703,6 +1703,7 @@ var Index = function Index(props) {
     }
   }, "Using the", " ", __jsx("a", {
     href: "https://rapidapi.com/Gramzivi/api/covid-19-data",
+    target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1713,7 +1714,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 80,
       columnNumber: 15
     }
   }, "Use the dropdown below to select a country. The data will display below.")))), __jsx("div", {
@@ -1721,7 +1722,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 87,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -1729,7 +1730,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 88,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -1737,7 +1738,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 89,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -1745,7 +1746,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 90,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -1753,7 +1754,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 91,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -1761,7 +1762,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 92,
       columnNumber: 19
     }
   }, __jsx("select", {
@@ -1771,7 +1772,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 93,
       columnNumber: 21
     }
   }, _countries_js__WEBPACK_IMPORTED_MODULE_3__["countries"].map(function (country) {
@@ -1781,7 +1782,7 @@ var Index = function Index(props) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 97,
+        lineNumber: 100,
         columnNumber: 27
       }
     }, country);
@@ -1791,7 +1792,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 106,
       columnNumber: 21
     }
   }))))))), __jsx("div", {
@@ -1799,7 +1800,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 113,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -1807,7 +1808,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 114,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -1815,7 +1816,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 115,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -1823,7 +1824,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 116,
       columnNumber: 15
     }
   }, __jsx("h1", {
@@ -1831,7 +1832,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 117,
       columnNumber: 17
     }
   }, selectedCountry), __jsx("hr", {
@@ -1839,7 +1840,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 118,
       columnNumber: 17
     }
   }), __jsx("p", {
@@ -1847,7 +1848,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 119,
       columnNumber: 17
     }
   }, "Confirmed Cases: ", confirmed), __jsx("p", {
@@ -1855,7 +1856,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 120,
       columnNumber: 17
     }
   }, "Recovered: ", recovered), __jsx("p", {
@@ -1863,7 +1864,7 @@ var Index = function Index(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 121,
       columnNumber: 17
     }
   }, "Deaths: ", deaths)))))));
