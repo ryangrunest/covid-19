@@ -63,7 +63,7 @@ const Index = props => {
         ></script>
       </Head>
       <main className="Index">
-        <div className="container colored">
+        <div className="container-fluid colored">
           <div className="row">
             <div className="col text-center py-4">
               <h2>Covid-19 Tracker</h2>

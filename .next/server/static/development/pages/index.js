@@ -281,7 +281,7 @@ const Index = props => {
       columnNumber: 7
     }
   }, __jsx("div", {
-    className: "container colored",
+    className: "container-fluid colored",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,

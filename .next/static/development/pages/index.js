@@ -1664,7 +1664,7 @@ var Index = function Index(props) {
       columnNumber: 7
     }
   }, __jsx("div", {
-    className: "container colored",
+    className: "container-fluid colored",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
